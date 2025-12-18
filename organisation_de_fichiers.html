@@ -1,0 +1,110 @@
+<!DOCTYPE HTML> 
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Site Commandes</title>
+		
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+		<link href="../styles/styles.css" type="text/css" rel="stylesheet">
+	</head>
+    <body>
+        <header>
+            <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="index.html">Commandes Linux</a>
+                        <a class="navbar-item" href="commandes_reseaux.html">Commandes Réseaux</a>                         
+                        <a class="navbar-item" href="organisation_de_fichiers.html">Organisation de fichiers</a>
+                        <a class="navbar-item" href="attributs_de_fichiers.html">Attribut de fichiers</a>
+                        <a class="navbar-item" href="localisation_de_fichiers.html">Localisation de fichiers</a>  
+                        <a class="navbar-item" href="visualisation_de_fichiers.html">Visualisation de fichiers</a>
+
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link">Gestion des paquets</a>
+
+                                    <div class="navbar-dropdown">
+                                       <a class="navbar-item" href="./gestion_des_paquets/apt.html">APT</a>
+                                       <a class="navbar-item" href="./gestion_des_paquets/dnf.html">DNF</a>
+                                       <a class="navbar-item" href="./gestion_des_paquets/dpkg.html">DPKG</a> 
+                                       <a class="navbar-item" href="./gestion_des_paquets/rpm.html">RPM</a> 
+                                       <a class="navbar-item" href="./gestion_des_paquets/pacman.html">PACMAN</a>                                                                            
+                                    </div>
+                            </div>
+
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link">Gestion des services</a>
+
+                                    <div class="navbar-dropdown">
+                                       <a class="navbar-item" href="./gestion_des_services/systemd.html">Systemd</a>
+                                       <a class="navbar-item" href="./gestion_des_services/openrc.html">OpenRC</a>
+                                       <a class="navbar-item" href="./gestion_des_services/sysvinit.html">SysVInit</a>                                                                            
+                                    </div>
+                            </div>
+
+                        <a class="navbar-item" href="gestion_des_utilisateurs.html">Gestion des utilisateurs</a>   
+                        <a class="navbar-item" href="administration.html">Administration</a>  
+                        <a class="navbar-item" href="aide.html">Aide</a>                         
+                    </div>
+                </div>
+            </nav>
+        </header>        
+        <main class="section site-content mt-5">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="has-text-centered">Commande</th>
+                        <th class="has-text-centered">Utilité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>cd</td>
+                        <td>Permet le déplacement dans la structure arborescente du système et change le répertoire de travail en cours</td>
+                    </tr>
+                    <tr>
+                        <td>cp</td>
+                        <td>Copie des fichiers et des répertoires</td>
+                    </tr>
+                    <tr>
+                        <td>df</td>
+                        <td>Affiche l'espace disque utilisé et est disponible pour tous les systèmes de fichiers montés</td>
+                    </tr>
+                    <tr>
+                        <td>du</td>
+                        <td>Retourne la quantité d'espacce disque occcupé par chaque fichier</td>
+                    </tr>
+                    <tr>
+                        <td>ln</td>
+                        <td>Crée un lien avec une cible spécifiée ; des liens logiciels et matériels peuvent être crées pour pointer vers le même fichier</td>
+                    </tr>
+                    <tr>
+                        <td>ls</td>
+                        <td>Listes les informations concernant le contenu du répertoire en cours ou du repertoire spécifié</td>
+                    </tr>
+                    <tr>
+                        <td>mkdir</td>
+                        <td>Créer un nouveau repertoire</td>
+                    </tr>
+                    <tr>
+                        <td>mv</td>
+                        <td>Renomme ou déplace un ou des fichiers ou des répertoires</td>
+                    </tr>
+                    <tr>
+                        <td>pwd</td>
+                        <td>Affiche le chemin d'accès du repertoire de travail en cours</td>
+                    </tr>
+                    <tr>
+                        <td>rm</td>
+                        <td>Supprime des fichiers et/ou des répertoires</td>
+                    </tr>
+                    <tr>
+                        <td>rmdir</td>
+                        <td>Supprime des répertoires vides</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

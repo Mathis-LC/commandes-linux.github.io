@@ -1,0 +1,86 @@
+<!DOCTYPE HTML> 
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Site Commandes</title>
+		
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+		<link href="../styles/styles.css" type="text/css" rel="stylesheet">
+	</head>
+    <body>
+        <header>
+            <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="index.html">Commandes Linux</a>
+                        <a class="navbar-item" href="commandes_reseaux.html">Commandes Réseaux</a>                         
+                        <a class="navbar-item" href="organisation_de_fichiers.html">Organisation de fichiers</a>
+                        <a class="navbar-item" href="attributs_de_fichiers.html">Attribut de fichiers</a>
+                        <a class="navbar-item" href="localisation_de_fichiers.html">Localisation de fichiers</a>  
+                        <a class="navbar-item" href="visualisation_de_fichiers.html">Visualisation de fichiers</a>
+
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link">Gestion des paquets</a>
+
+                                    <div class="navbar-dropdown">
+                                       <a class="navbar-item" href="./gestion_des_paquets/apt.html">APT</a>
+                                       <a class="navbar-item" href="./gestion_des_paquets/dnf.html">DNF</a>
+                                       <a class="navbar-item" href="./gestion_des_paquets/dpkg.html">DPKG</a> 
+                                       <a class="navbar-item" href="./gestion_des_paquets/rpm.html">RPM</a> 
+                                       <a class="navbar-item" href="./gestion_des_paquets/pacman.html">PACMAN</a>                                                                            
+                                    </div>
+                            </div>
+
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link">Gestion des services</a>
+
+                                    <div class="navbar-dropdown">
+                                       <a class="navbar-item" href="./gestion_des_services/systemd.html">Systemd</a>
+                                       <a class="navbar-item" href="./gestion_des_services/openrc.html">OpenRC</a>
+                                       <a class="navbar-item" href="./gestion_des_services/sysvinit.html">SysVInit</a>                                                                            
+                                    </div>
+                            </div>
+
+                        <a class="navbar-item" href="gestion_des_utilisateurs.html">Gestion des utilisateurs</a>   
+                        <a class="navbar-item" href="administration.html">Administration</a>  
+                        <a class="navbar-item" href="aide.html">Aide</a>                          
+                    </div>
+                </div>
+            </nav>
+        </header>        
+        <main class="section site-content mt-5">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="has-text-centered">Commande</th>
+                        <th class="has-text-centered">Utilité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>cut</td>
+                        <td>Extrait des sections à partir de chaque ligne d'un fichier ou d'une entrée standard</td>
+                    </tr>
+                    <tr>
+                        <td>find</td>
+                        <td>Recherche dans toute l'arborecence d'un système de fichiers à partir d'un point donné les fichiers correspondant à l'expression régulière passée en paramètre</td>
+                    </tr>
+                    <tr>
+                        <td>grep</td>
+                        <td>Recherche dans les fichiers nommés dans la ligne de commande les lignes qui contiennent l'expression régulière spécifiée</td>
+                    </tr>
+                    <tr>
+                        <td>locate</td>
+                        <td>Recherche une base de donées de fichiers système préinstallée pour retrouver rapidement un fichier</td>
+                    </tr>
+                    <tr>
+                        <td>which</td>
+                        <td>Affiche le chemin complet d'accès à une commande</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

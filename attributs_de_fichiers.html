@@ -1,0 +1,94 @@
+<!DOCTYPE HTML> 
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Site Commandes</title>
+		
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+		<link href="../styles/styles.css" type="text/css" rel="stylesheet">
+	</head>
+    <body>
+        <header>
+            <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="index.html">Commandes Linux</a>
+                        <a class="navbar-item" href="commandes_reseaux.html">Commandes Réseaux</a>                         
+                        <a class="navbar-item" href="organisation_de_fichiers.html">Organisation de fichiers</a>
+                        <a class="navbar-item" href="attributs_de_fichiers.html">Attribut de fichiers</a>
+                        <a class="navbar-item" href="localisation_de_fichiers.html">Localisation de fichiers</a>  
+                        <a class="navbar-item" href="visualisation_de_fichiers.html">Visualisation de fichiers</a>
+
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link">Gestion des paquets</a>
+
+                                    <div class="navbar-dropdown">
+                                       <a class="navbar-item" href="./gestion_des_paquets/apt.html">APT</a>
+                                       <a class="navbar-item" href="./gestion_des_paquets/dnf.html">DNF</a>
+                                       <a class="navbar-item" href="./gestion_des_paquets/dpkg.html">DPKG</a> 
+                                       <a class="navbar-item" href="./gestion_des_paquets/rpm.html">RPM</a> 
+                                       <a class="navbar-item" href="./gestion_des_paquets/pacman.html">PACMAN</a>                                                                            
+                                    </div>
+                            </div>
+
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link">Gestion des services</a>
+
+                                    <div class="navbar-dropdown">
+                                       <a class="navbar-item" href="./gestion_des_services/systemd.html">Systemd</a>
+                                       <a class="navbar-item" href="./gestion_des_services/openrc.html">OpenRC</a>
+                                       <a class="navbar-item" href="./gestion_des_services/sysvinit.html">SysVInit</a>                                                                            
+                                    </div>
+                            </div>
+
+                        <a class="navbar-item" href="gestion_des_utilisateurs.html">Gestion des utilisateurs</a>   
+                        <a class="navbar-item" href="administration.html">Administration</a>  
+                        <a class="navbar-item" href="aide.html">Aide</a>                         
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="section site-content mt-5">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="has-text-centered">Commande</th>
+                        <th class="has-text-centered">Utilité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>chgrp</td>
+                        <td>Permet de changer le groupe propriétaire d'un fichier</td>
+                    </tr>
+                    <tr>
+                        <td>chmod</td>
+                        <td>Permet de modifier les permissons de dossiers ou de fichiers</td>
+                    </tr>
+                    <tr>
+                        <td>chown</td>
+                        <td>Change le propriétaire d'un fichier</td>
+                    </tr>
+                    <tr>
+                        <td>file</td>
+                        <td>Effectue des tests pour déterminer le type du fichier. Cette commande est pratique pour vérifier si un fichier est codé en ASCII avant de l'afficher à l'écran</td>
+                    </tr>
+                    <tr>
+                        <td>stat</td>
+                        <td>Affiche le contenu des métadonnées d'un fichier</td>
+                    </tr>
+                    <tr>
+                        <td>touch</td>
+                        <td>Permet de créer un fichier vide</td>
+                    </tr>
+                    <tr>
+                        <td>wc</td>
+                        <td>Affiche le nombre d'octets, de mots et de lignes d'un fichier</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>
