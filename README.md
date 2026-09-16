@@ -1,7 +1,18 @@
-# https://mathis-lc.github.io/commandes-linux.github.io/index.html
+# Site Commandes Linux
 
-# https://github.com/Mathis-LC/commandes-linux.github.io
+Lien vers le site hébergé sur github pages
 
-Site Commandes Linux
+**https://mathis-lc.github.io/commandes-linux.github.io/**
 
-commandes-linux.github.io
+-----------------------------------------------------------
+
+Lien vers le github
+
+**https://github.com/Mathis-LC/commandes-linux.github.io/**
+
+-----------------------------------------------------------
+
+Nom du dépôt github
+
+**commandes-linux.github.io**
+
