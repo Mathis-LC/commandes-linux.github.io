@@ -16,6 +16,11 @@ td {
   padding-bottom: 10px;
 }
 
+abbr{
+  cursor: help;
+  text-decoration: none;
+}
+
 /* Ce CSS permet de personnaliser la couleur du bouton du menu mobile et de conserver cette couleur au survol et lorsque le menu est ouvert. */
 
 .navbar-burger {
